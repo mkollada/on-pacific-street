@@ -1,0 +1,16 @@
+---
+import '../styles/global.css';
+import Navbar from '../components/Navbar.astro';
+---
+<html>
+  <head>
+    <link rel="stylesheet" href="/styles/global.css" />
+  </head>
+  <body>
+    <Navbar />
+    <div class="flex flex-col items-center">
+      <slot />
+    </div>
+    
+  </body>
+</html>
