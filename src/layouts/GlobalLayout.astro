@@ -5,26 +5,46 @@ import Navbar from '../components/Navbar.astro';
 <html>
   <head>
     <link rel="stylesheet" href="/styles/global.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   </head>
   <body>
     <Navbar />
     <div class="flex flex-col items-center">
       <div class="flex flex-row justify-between">
-        <div class="flex flex-col w-[10%]">
-          <img src="/images/doodles/asterisk-1.png" />
-          <img src="/images/doodles/home-2.png" />
-          <img src="/images/doodles/asterisk-3.png" />
+        <div class="flex flex-col w-[20%] items-center">
+          
+          <div class="w-[40%] pb-[100%]">
+            <img src="/images/doodles/star-1@4x.png" />
+          </div>
+          <div class="flex flex-row pt-[100%]">
+            <div class="w-[55%]"></div>
+            <div class="w-[33%]">
+              <img src="/images/doodles/circle@4x.png" />
+            </div>
+          </div>
+          
         </div>
         <div class="min-w-[432px]">
           <slot />
+          
         </div>
-        <div class="flex flex-col w-[10%] p-4">
-          <img src="/images/doodles/asterisk-2.png" />
-          <img src="/images/doodles/home-4.png" />
-          <img src="/images/doodles/asterisk-4.png" />
+        <div class="flex flex-col w-[20%] ">
+          <div class="flex flex-row pt-[50%] pb-[100%]">
+            <div class="w-[40%]"></div>
+          
+            <div class="w-[33%] ">
+              <img src="/images/doodles/house@4x.png" />
+            </div>
+          </div>
+          <div class="flex flex-row pt-[100%]">
+            <div class="w-[20%]"></div>
+            <div class="w-[33%]">
+              <img src="/images/doodles/star-2@4x.png" />
+            </div>
+        </div>
         </div>
       </div>
-      
+      <img class="w-[67%]" src="/images/doodles/line-2@4x.png" />
     </div>
     
   </body>
