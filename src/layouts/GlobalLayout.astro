@@ -9,7 +9,22 @@ import Navbar from '../components/Navbar.astro';
   <body>
     <Navbar />
     <div class="flex flex-col items-center">
-      <slot />
+      <div class="flex flex-row justify-between">
+        <div class="flex flex-col w-[10%]">
+          <img src="/images/doodles/asterisk-1.png" />
+          <img src="/images/doodles/home-2.png" />
+          <img src="/images/doodles/asterisk-3.png" />
+        </div>
+        <div class="min-w-[432px]">
+          <slot />
+        </div>
+        <div class="flex flex-col w-[10%] p-4">
+          <img src="/images/doodles/asterisk-2.png" />
+          <img src="/images/doodles/home-4.png" />
+          <img src="/images/doodles/asterisk-4.png" />
+        </div>
+      </div>
+      
     </div>
     
   </body>
