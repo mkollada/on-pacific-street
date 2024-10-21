@@ -1,5 +1,7 @@
 ---
-import GlobalLayout from "../layouts/GlobalLayout.astro"
+import GlobalLayout from "../layouts/GlobalLayout.astro";
+import PerformancesEmbed from "../components/PerformancesEmbed.astro";
+import performances from "../data/videos/full-performances.json";
 ---
 
 <html lang="en">
@@ -12,42 +14,11 @@ import GlobalLayout from "../layouts/GlobalLayout.astro"
 	</head>
 	<body>
 		<GlobalLayout>
-			<div class="pt-8">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/FJcMi_Fuxn0?si=pdvUeU-B7rPZUIIP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-				<p>
-					Pook Hustle - On Pacific Street
-				</p>
-			</div>
-			<div class="pt-8">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/F-fB1LI63To?si=yiHLAPvHFIkSw_1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-				<p>
-					Captain Tallen & The Benevolent Entities - On Pacific Street
-				</p>
-			</div>
-			<div class="pt-8">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/qeaAONCqIPg?si=5tccpF9fkORjvw9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>			
-				<p>
-					Claire Ozmun - On Pacific Street
-				</p>
-			</div>
-			<div class="pt-8">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/j_ONM4mhowQ?si=uFkhZF8HmB12qf86" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-				<p>
-					Julián - On Pacific Street
-				</p>
-			</div>
-			<div class="pt-8">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/1dIMNSrBWCc?si=ZSNihz2YANbi85qb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-				<p>
-					Julesy - On Pacific Street
-				</p>
-			</div>
-			<div class="pt-8">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/HhgDKTym8_o?si=F4zY7qMvFISRoTQ7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-				<p>
-					Caleb Jenson - On Pacific Street
-				</p>
-			</div>
+			{performances
+				.filter(item => item.id !== "kablamo" && item.id !== "mary-hood")
+				.map(item => (
+					<PerformancesEmbed link={item.youtubeLink} artistName={item.artistName} />
+				))}
 		</GlobalLayout>
 	</body>
 </html>

@@ -1,0 +1,13 @@
+---
+import YouTubeEmbed from "./YouTubeEmbed.astro";
+
+const { link, artistName } = Astro.props;
+
+---
+<div class="pt-8">
+    
+    <YouTubeEmbed link={link} />
+    <p class="mt-4 text-center">
+        {artistName} - On Pacific Street
+    </p>
+</div>

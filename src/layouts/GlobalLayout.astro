@@ -11,42 +11,49 @@ import Navbar from '../components/Navbar.astro';
   <body>
     <Navbar />
     <div class="flex flex-col items-center">
-      <div class="flex flex-row justify-between">
-        <div class="flex flex-col w-[20%] items-center">
-          
-          <div class="w-[40%] pb-[100%]">
-            <img src="/images/doodles/star-1@4x.png" />
+      <div class="flex flex-row justify-between w-full relative">
+        <!-- Doodle Col Left -->
+        <div class="flex flex-col w-[20%] items-center fixed top-100 left-0 h-full">
+
+          <div class="flex flex-row pb-[100%]">
+            <div class="w-[25%]"></div>
+            <div class="w-[33%]">
+              <img src="/images/doodles/star-1@4x.png" />
+            </div>
           </div>
           <div class="flex flex-row pt-[100%]">
-            <div class="w-[55%]"></div>
+            <div class="w-[45%]"></div>
             <div class="w-[33%]">
               <img src="/images/doodles/circle@4x.png" />
             </div>
           </div>
-          
         </div>
-        <div class="min-w-[432px]">
+        <!-- End Doodle Col Left -->
+        
+        <!-- Page Content -->
+        <div class="flex flex-col min-w-[200px] w-[60%] mx-auto relative">
           <slot />
-          
         </div>
-        <div class="flex flex-col w-[20%] ">
+        <!-- End Page Content -->
+        
+        <!-- Doodle Col Right -->
+        <div class="flex flex-col w-[20%] fixed top-100 right-0 h-full">
           <div class="flex flex-row pt-[50%] pb-[100%]">
-            <div class="w-[40%]"></div>
-          
-            <div class="w-[33%] ">
+            <div class="w-[50%]"></div>
+            <div class="w-[33%]">
               <img src="/images/doodles/house@4x.png" />
             </div>
           </div>
           <div class="flex flex-row pt-[100%]">
-            <div class="w-[20%]"></div>
+            <div class="w-[30%]"></div>
             <div class="w-[33%]">
               <img src="/images/doodles/star-2@4x.png" />
             </div>
+          </div>
         </div>
-        </div>
+        <!-- End Doodle Col Right -->
       </div>
-      <img class="w-[67%]" src="/images/doodles/line-2@4x.png" />
+      <img class="w-[67%] pt-8 pb-4" src="/images/doodles/line-2@4x.png" />
     </div>
-    
   </body>
 </html>

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "pook-hustle",
+    "artistName": "Pook Hustle",
+    "youtubeLink": "https://www.youtube.com/embed/FJcMi_Fuxn0",
+    "date": "07-27-2024"
+  },
+  {
+    "id": "captain-tallen",
+    "artistName": "Captain Tallen & the Benevolent Entities",
+    "youtubeLink": "https://www.youtube.com/embed/F-fB1LI63To",
+    "date": "07-27-2024"
+  },
+  {
+    "id": "kablamo",
+    "artistName": "Kablamo",
+    "youtubeLink": "",
+    "date": "06-21-2024"
+  },
+  {
+    "id": "claire-ozmun",
+    "artistName": "Claire Ozmun",
+    "youtubeLink": "https://www.youtube.com/embed/qeaAONCqIPg",
+    "date": "06-21-2024"
+  },
+  {
+    "id": "julian",
+    "artistName": "Julián",
+    "youtubeLink": "https://www.youtube.com/embed/j_ONM4mhowQ",
+    "date": "05-11-2024"
+  },
+  {
+    "id": "julesy",
+    "artistName": "Julesy",
+    "youtubeLink": "https://www.youtube.com/embed/1dIMNSrBWCc",
+    "date": "05-11-2024"
+  },
+  {
+    "id": "mary-hood",
+    "artistName": "Mary Hood",
+    "youtubeLink": "",
+    "date": "03-15-2024"
+  },
+  {
+    "id": "caleb-jenson",
+    "artistName": "Caleb Jenson",
+    "youtubeLink": "https://www.youtube.com/embed/HhgDKTym8_o",
+    "date": "03-15-2024"
+  }
+]
