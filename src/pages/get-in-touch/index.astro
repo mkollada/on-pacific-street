@@ -1,13 +1,24 @@
 ---
-import GlobalLayout from "../../layouts/GlobalLayout.astro"
+import GlobalLayout from "../../layouts/GlobalLayout.astro";
 ---
+
 <GlobalLayout>
-    <div class="font-sans">
-        <p>
-            instagram: <a href="https://www.instagram.com/onpacificstreet/">@onpacificstreet</a>
-        </p>
-        <p>
-            email: onpacificstreet@gmail.com
-        </p>
+    <div class="font-sans space-y-6 max-w-2xl mx-auto py-8">
+        <div>
+            <p class="text-xl font-bold">Do you?</p>
+        </div>
+        <div>
+            <ul class="list-disc pl-6 space-y-2">
+                <li>Have a space that you think it would be cool to host a show in?</li>
+                <li>Want to perform or help out at a show?</li>
+                <li>Want to share music recs?</li>
+                <li>Want to talk about any and all things house shows, live music, community, etc.?</li>
+            </ul>
+        </div>
+        <div class="space-y-2">
+            <p class="text-xl font-bold py-4">Then you should reach out! (forreal)</p>
+            <p>instagram: <a href="https://www.instagram.com/onpacificstreet/" class="text-blue-500 underline">@onpacificstreet</a></p>
+            <p>email: onpacificstreet AT gmail.com</p>
+        </div>
     </div>
 </GlobalLayout>
