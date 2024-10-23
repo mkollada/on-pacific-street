@@ -1,8 +1,18 @@
 ---
 import GlobalLayout from "../../layouts/GlobalLayout.astro"
+import text from "../../data/text/about.json"
 ---
 <GlobalLayout>
-    <div class="font-sans">
-        On Pacific Street is a concert series in a living room.
+    <div class="font-sans pt-4 px-24 text-lg">
+        <div>
+            <p class="py-4">{text.text.paragraph1}</p>
+            <p class="py-4">{text.text.paragraph2}</p>
+            <p class="py-4">{text.text.paragraph3}</p>
+        </div>
+        <div class="py-4">
+            <p>Much love,</p>
+            <p>Your friends on Pacific St.</p>
+        </div>
+        
     </div>
 </GlobalLayout>
