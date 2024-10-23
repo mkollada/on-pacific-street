@@ -1,3 +1,6 @@
+---
+const currentPath = Astro.url.pathname;
+---
 <nav class="w-full">
     <div class="flex flex-col items-center justify-center py-8">
         <a href="/">
@@ -12,9 +15,10 @@
             </div>
         </a>
         <ul class="flex flex-row justify-between font-semibold text-xs font-sans mt-4 w-[25%] min-w-[300px]">
-            <li class="px-2"><a href="/" class="hover:underline">PERFORMANCES</a></li>
-            <li class="px-2"><a href="/about" class="hover:underline">ABOUT</a></li>
-            <li class="px-2"><a href="/get-in-touch" class="hover:underline">GET IN TOUCH</a></li>
+            <!-- <li class="px-2"><a href="/" class={`hover:underline ${currentPath === '/' ?  'underline' : ''}`}>HOME</a></li> -->
+            <li class="px-2"><a href="/full-performances" class={`hover:underline ${currentPath === '/full-performances' ?  'underline' : ''}`}>FULL PERFORMANCES</a></li>
+            <li class="px-2"><a href="/about" class={`hover:underline ${currentPath === '/about' ?  'underline' : ''}`}>ABOUT</a></li>
+            <li class="px-2"><a href="/get-in-touch" class={`hover:underline ${currentPath === '/get-in-touch' ?  'underline' : ''}`}>GET IN TOUCH</a></li>
         </ul>
     </div>
 </nav>
