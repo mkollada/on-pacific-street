@@ -1,13 +1,15 @@
 ---
 import YouTubeEmbed from "./YouTubeEmbed.astro";
 
-const { link, artistName, songTitle } = Astro.props;
+const { item } = Astro.props;
 
 ---
 <div class="pt-8">
     <p class="mt-4 text-center font-bold text-xl">
-        {artistName} - {songTitle}
+        {item.artistName} - {item.songTitle}
     </p>
-    <YouTubeEmbed link={link} />
-    
+    <YouTubeEmbed link={item.link} />
+    <div class="text-center text-xl p-4">
+        <a class="underline" href={item.fullPerformanceLink}>Full Performance</a>
+    </div>
 </div>

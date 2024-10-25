@@ -17,7 +17,7 @@ import songs from "../data/videos/songs.json"
 			{songs
 				.filter(item => item.id !== "kablamo" && item.id !== "mary-hood")
 				.map(item => (
-					<SongEmbed link={item.youtubeLink} artistName={item.artistName} songTitle={item.songTitle}/>
+					<SongEmbed item={item} />
 				))}
 		</GlobalLayout>
 	</body>
