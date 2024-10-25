@@ -8,7 +8,7 @@ const { item } = Astro.props;
     <p class="mt-4 text-center font-bold text-xl">
         {item.artistName} - {item.songTitle}
     </p>
-    <YouTubeEmbed link={item.link} />
+    <YouTubeEmbed link={item.youtubeLink} />
     <div class="text-center text-xl p-4">
         <a class="underline" href={item.fullPerformanceLink}>Full Performance</a>
     </div>
