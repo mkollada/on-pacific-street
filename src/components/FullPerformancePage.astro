@@ -1,7 +1,10 @@
 ---
 import YouTubeEmbed from "./YouTubeEmbed.astro";
+import type { Performance } from "../types/types";
 
-const { item } = Astro.props;
+// Assert that Astro.props has item of type Performance
+const props = Astro.props as { item: Performance };
+const { item } = props;
 ---
 
 <div class="pt-8">
@@ -28,24 +31,22 @@ const { item } = Astro.props;
             </div>
         )}
     
-       
-    
-        { item.audioEngineers?.length > 0 && (
+        { item.audioEngineers && item.audioEngineers?.length > 0 && (
             <div class="mt-4">
                 <p class="font-bold">Audio Engineer:</p>
                 <ul class="list-disc ml-4">
-                    {item.audioEngineers.map(engineer => (
+                    {item.audioEngineers.map((engineer: string) => (
                         <li class="list-inside">{engineer}</li>
                     ))}
                 </ul>
             </div>
         )}
     
-        { item.videographers?.length > 0 && (
+        { item.videographers && item.videographers?.length > 0 && (
             <div class="mt-4">
                 <p class="font-bold">Videographers:</p>
                 <ul class="list-disc ml-4">
-                    {item.videographers.map(videographer => (
+                    {item.videographers.map((videographer: string) => (
                         <li class="list-inside">{videographer}</li>
                     ))}
                 </ul>
