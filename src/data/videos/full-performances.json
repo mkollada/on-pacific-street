@@ -3,48 +3,98 @@
     "id": "pook-hustle",
     "artistName": "Pook Hustle",
     "youtubeLink": "https://www.youtube.com/embed/FJcMi_Fuxn0",
-    "date": "07-27-2024"
+    "date": "07.27.2024",
+    "about": "When his career as a student athlete didn't go as planned, Pook Hustle found new excitement pursuing his interest in writing. It was on this new playing field where his captivating energy paired with a smoky voice would shine through and garner the attention of those around him. The Brooklyn born Hip-Hop extraordinaire reminds us the nuances of the black experience.",
+    "instaHandle": "pookhustle",
+    "spotifyId": "2N6iVkHcLw5JfHm775VnSc",
+    "bandcampLink": "https://pookhustle.bandcamp.com/",
+    "audioEngineers": ["Miles Bentley"],
+    "videographers": ["Jason Llaguno", "Donny Bianchi"],
+    "MC": "Matt Kollada"
   },
   {
     "id": "captain-tallen",
-    "artistName": "Captain Tallen & the Benevolent Entities",
+    "artistName": "Captain Tallen & The Benevolent Entities",
     "youtubeLink": "https://www.youtube.com/embed/F-fB1LI63To",
-    "date": "07-27-2024"
+    "date": "07.27.2024",
+    "about": "Captain Tallen & the Benevolent Entities are tender storytellers, weaving lyrics that sing of nostalgia and yearning with delicate and thoughtful instrumentation. They are also a pirate ship.",
+    "instaHandle": "captaintallen",
+    "spotifyId": "71JgsRuV8fuxboicVPojr3",
+    "bandcampLink": "https://captaintallen.bandcamp.com/",
+    "audioEngineers": ["Miles Bentley"],
+    "videographers": ["Jason Llaguno", "Donny Bianchi"],
+    "MC": "Matt Kollada"
   },
   {
     "id": "kablamo",
     "artistName": "Kablamo",
     "youtubeLink": "",
-    "date": "06-21-2024"
+    "date": "06.21.2024",
+    "instaHandle": "kablamo.ny",
+    "spotifyId": "4AKtivcTrAPi4dvF76YLnL",
+    "bandcampLink": "https://kablamony.bandcamp.com/album/kablamo",
+    "audioEngineers": ["Miles Bentley"],
+    "videographers": ["Jason Llaguno", "Donny Bianchi"],
+    "MC": "Matt Kollada"
   },
   {
     "id": "claire-ozmun",
     "artistName": "Claire Ozmun",
     "youtubeLink": "https://www.youtube.com/embed/qeaAONCqIPg",
-    "date": "06-21-2024"
+    "date": "06.21.2024",
+    "instaHandle": "claireozmun",
+    "spotifyId": "0UYdFXykT1UQhg86dyrOHk",
+    "bandcampLink": "https://claireozmun.bandcamp.com/",
+    "audioEngineers": ["Miles Bentley"],
+    "videographers": ["Jason Llaguno", "Donny Bianchi"],
+    "MC": "Matt Kollada"
   },
   {
     "id": "julian",
     "artistName": "Julián",
     "youtubeLink": "https://www.youtube.com/embed/j_ONM4mhowQ",
-    "date": "05-11-2024"
+    "date": "05.11.2024",
+    "about": "Julián, a Brooklyn based guitarist and singer defined by their ethereal songwriting, has a new project that will reach for the depths of your heart and rock you to your core. Julián sites various influences that have led them to this point in their creative journey including the freedom and imagination of the Jimi Hendrix Experience and the John Coltrane Quartet as well as the tender songwriting and unique storytelling abilities of The Beatles and Milton Nascimento.",
+    "instaHandle": "_soy.julian_",
+    "spotifyId": "3472w4T3kBj96fwvwsw0Ji",
+    "audioEngineers": ["Miles Bentley"],
+    "videographers": ["Jason Llaguno", "Donny Bianchi"],
+    "MC": "Matt Kollada"
   },
   {
     "id": "julesy",
     "artistName": "Julesy",
     "youtubeLink": "https://www.youtube.com/embed/1dIMNSrBWCc",
-    "date": "05-11-2024"
+    "date": "05.11.2024",
+    "instaHandle": "julesy.online",
+    "spotifyId": "0KxTO80Fqd4s89A19yPPb4",
+    "bandcampLink": "https://julesy.bandcamp.com/album/this-current-self-intervention",
+    "audioEngineers": ["Miles Bentley"],
+    "videographers": ["Jason Llaguno", "Donny Bianchi"],
+    "MC": "Matt Kollada"
   },
   {
     "id": "mary-hood",
     "artistName": "Mary Hood",
     "youtubeLink": "",
-    "date": "03-15-2024"
+    "date": "03.15.2024",
+    "spotifyId": "3OgAdE6G63GkhIxAoNk4VG",
+    "instaHandle": "mary_hood",
+    "bandcampLink": "https://maryhood.bandcamp.com/",
+    "about": "Mary Hood is an indie folk rock band comprised of singer/songwriter Mary Hood, bassist Brian Hart, drummer Billy Coughlin, and lead guitarist Griffin Jennings. Known for their ethereal sound, raw lyrics, and powerful dynamics, the band’s musical bond is undeniable. They draw influence from Radiohead, Elliott Smith, Fiona Apple, Big Thief, and early punk rock.",
+    "audioEngineers": ["Miles Bentley"],
+    "videographers": ["Jason Llaguno", "Donny Bianchi"],
+    "MC": "Matt Kollada"
   },
   {
     "id": "caleb-jenson",
     "artistName": "Caleb Jenson",
     "youtubeLink": "https://www.youtube.com/embed/HhgDKTym8_o",
-    "date": "03-15-2024"
+    "date": "03.15.2024",
+    "instaHandle": "calebrjenson",
+    "about": "Caleb Jenson is a folk singer/songwriter briefly emerging from his musical hibernation to share a few personal tunes, echoing the likes of Adrianne Lenker, Andy Shauf, and James Taylor. His writing generally muses on the grief and vertigo of identity loss, and the struggle to find meaning in an otherwise ineffable reality. Or, he’s just singing about making coffee. Up to you.",
+    "audioEngineers": ["Miles Bentley"],
+    "videographers": ["Jason Llaguno", "Donny Bianchi"],
+    "MC": "Matt Kollada"
   }
 ]

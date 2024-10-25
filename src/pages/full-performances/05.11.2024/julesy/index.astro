@@ -1,7 +1,7 @@
 ---
-import GlobalLayout from "../../../layouts/GlobalLayout.astro";
-import PerformancesEmbed from "../../../components/PerformancesEmbed.astro";
-import performances from "../../../data/videos/full-performances.json";
+import GlobalLayout from "../../../../layouts/GlobalLayout.astro";
+import performances from "../../../../data/videos/full-performances.json";
+import FullPerformancePage from "../../../../components/FullPerformancePage.astro";
 ---
 
 <html lang="en">
@@ -17,7 +17,7 @@ import performances from "../../../data/videos/full-performances.json";
 			{performances
 				.filter(item => item.id == "julesy")
 				.map(item => (
-					<PerformancesEmbed link={item.youtubeLink} artistName={item.artistName} />
+					<FullPerformancePage item={item} />
 				))}
 		</GlobalLayout>
 	</body>

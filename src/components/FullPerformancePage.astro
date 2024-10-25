@@ -1,0 +1,68 @@
+---
+import YouTubeEmbed from "./YouTubeEmbed.astro";
+
+const { item } = Astro.props;
+---
+
+<div class="pt-8">
+    <p class="mt-4 text-center font-bold text-xl">
+        {item.artistName} - {item.date}
+    </p>
+    { item.youtubeLink && <YouTubeEmbed link={item.youtubeLink} /> }
+
+    { item.instaHandle && (
+        <div>
+            <p>Instagram: <a href={`https://www.instagram.com/${item.instaHandle}`}>@{item.instaHandle}</a></p>
+        </div>
+    )}
+
+    { item.spotifyId && (
+        <div>
+            <a href={`https://open.spotify.com/artist/${item.spotifyId}`}>Spotify</a>
+        </div>
+    )}
+
+    { item.bandcampLink && (
+        <div>
+            <a href={item.bandcampLink}>Bandcamp</a>
+        </div>
+    )}
+
+    { item.about && (
+        <>
+            <p class="mt-4">About {item.artistName}:</p>
+            <p>{item.about}</p>
+        </>
+    )}
+
+    { item.audioEngineers?.length > 0 && (
+        <div class="mt-4">
+            <p class="font-bold">Audio Engineer:</p>
+            <ul class="list-disc ml-4">
+                {item.audioEngineers.map(engineer => (
+                    <li class="list-inside">{engineer}</li>
+                ))}
+            </ul>
+        </div>
+    )}
+
+    { item.videographers?.length > 0 && (
+        <div class="mt-4">
+            <p class="font-bold">Videographers:</p>
+            <ul class="list-disc ml-4">
+                {item.videographers.map(videographer => (
+                    <li class="list-inside">{videographer}</li>
+                ))}
+            </ul>
+        </div>
+    )}
+
+    { item.MC && (
+        <div class="mt-4">
+            <p class="font-bold">MC:</p>
+            <ul class="list-disc ml-4">
+                <li class="list-inside">{item.MC}</li>
+            </ul>
+        </div>
+    )}
+</div>
