@@ -17,7 +17,7 @@ import performances from "../../../../data/videos/full-performances.json";
 			{performances
 				.filter(item => item.id == "julian")
 				.map(item => (
-					<PerformancesEmbed link={item.youtubeLink} artistName={item.artistName} />
+					<PerformancesEmbed item={item} />
 				))}
 		</GlobalLayout>
 	</body>
