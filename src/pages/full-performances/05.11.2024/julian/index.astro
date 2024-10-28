@@ -1,6 +1,6 @@
 ---
 import GlobalLayout from "../../../../layouts/GlobalLayout.astro";
-import PerformancesEmbed from "../../../../components/PerformancesEmbed.astro";
+import FullPerformancePage from "../../../../components/FullPerformancePage.astro";
 import performances from "../../../../data/videos/full-performances.json";
 ---
 
@@ -17,7 +17,7 @@ import performances from "../../../../data/videos/full-performances.json";
 			{performances
 				.filter(item => item.id == "julian")
 				.map(item => (
-					<PerformancesEmbed item={item} />
+					<FullPerformancePage item={item} />
 				))}
 		</GlobalLayout>
 	</body>
