@@ -1,5 +1,21 @@
 [
   {
+    "id": "julian-alegria",
+    "artistName": "Julián",
+    "songTitle": "Alegría",
+    "youtubeLink": "https://www.youtube.com/embed/WvWxCyeChIU",
+    "date": "05.11.2024",
+    "fullPerformanceLink": "/full-performances/05.11.2024/julian"
+  },
+  {
+    "id": "julesy-wendy",
+    "artistName": "Julesy",
+    "songTitle": "Wendy",
+    "youtubeLink": "https://www.youtube.com/embed/8l2AVK2GV0s",
+    "date": "05.11.2024",
+    "fullPerformanceLink": "/full-performances/05.11.2024/julesy"
+  },
+  {
     "id": "caleb-jenson-transplant",
     "artistName": "Caleb Jenson",
     "songTitle": "Transplant",
@@ -38,22 +54,7 @@
     "date": "06.21.2024",
     "fullPerformanceLink": "/full-performances/06.21.2024/claire-ozmun"
   },
-  {
-    "id": "julian-alegria",
-    "artistName": "Julián",
-    "songTitle": "Alegría",
-    "youtubeLink": "https://www.youtube.com/embed/WvWxCyeChIU",
-    "date": "05.11.2024",
-    "fullPerformanceLink": "/full-performances/05.11.2024/julian"
-  },
-  {
-    "id": "julesy-wendy",
-    "artistName": "Julesy",
-    "songTitle": "Wendy",
-    "youtubeLink": "https://www.youtube.com/embed/8l2AVK2GV0s",
-    "date": "05.11.2024",
-    "fullPerformanceLink": "/full-performances/05.11.2024/julesy"
-  },
+
   {
     "id": "mary-hood",
     "artistName": "Mary Hood",
