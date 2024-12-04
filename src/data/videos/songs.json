@@ -1,5 +1,13 @@
 [
   {
+    "id": "claire-ozmun-ferris-wheel",
+    "artistName": "Claire Ozmun",
+    "songTitle": "ferris wheel out in the rain",
+    "youtubeLink": "https://www.youtube.com/embed/-OrLMEqLmVk",
+    "date": "06.21.2024",
+    "fullPerformanceLink": "/full-performances/06.21.2024/claire-ozmun"
+  },
+  {
     "id": "julian-alegria",
     "artistName": "Julián",
     "songTitle": "Alegría",
@@ -46,15 +54,6 @@
     "date": "06.21.2024",
     "fullPerformanceLink": "/full-performances/06.21.2024/kablamo"
   },
-  {
-    "id": "claire-ozmun-ferris-wheel",
-    "artistName": "Claire Ozmun",
-    "songTitle": "ferris wheel out in the rain",
-    "youtubeLink": "https://www.youtube.com/embed/-OrLMEqLmVk",
-    "date": "06.21.2024",
-    "fullPerformanceLink": "/full-performances/06.21.2024/claire-ozmun"
-  },
-
   {
     "id": "mary-hood",
     "artistName": "Mary Hood",
