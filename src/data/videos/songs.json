@@ -1,5 +1,13 @@
 [
   {
+    "id": "kablamo-intro",
+    "artistName": "Kablamo",
+    "songTitle": "Intro",
+    "youtubeLink": "https://www.youtube.com/embed/kUuiA4E2wUM",
+    "date": "06.21.2024",
+    "fullPerformanceLink": "/full-performances/06.21.2024/kablamo"
+  },
+  {
     "id": "claire-ozmun-ferris-wheel",
     "artistName": "Claire Ozmun",
     "songTitle": "ferris wheel out in the rain",
