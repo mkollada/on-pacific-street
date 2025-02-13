@@ -1,5 +1,13 @@
 [
   {
+    "id": "captain-tallen-be-so-nice",
+    "artistName": "Captain Tallen & The Benevolent Entities",
+    "songTitle": "be so nice",
+    "youtubeLink": "https://www.youtube.com/embed/XioXXJDDZJU",
+    "date": "07.27.2024",
+    "fullPerformanceLink": "/full-performances/07.27.2024/captain-tallen"
+  },
+  {
     "id": "kablamo-intro",
     "artistName": "Kablamo",
     "songTitle": "Intro",
@@ -46,14 +54,6 @@
     "youtubeLink": "https://www.youtube.com/embed/t5Usrzg2u-s",
     "date": "07.27.2024",
     "fullPerformanceLink": "/full-performances/07.27.2024/pook-hustle"
-  },
-  {
-    "id": "captain-tallen",
-    "artistName": "Captain Tallen & The Benevolent Entities",
-    "songTitle": "be so nice",
-    "youtubeLink": "https://www.youtube.com/embed/XioXXJDDZJU",
-    "date": "07.27.2024",
-    "fullPerformanceLink": "/full-performances/07.27.2024/captain-tallen"
   },
   {
     "id": "kablamo",
