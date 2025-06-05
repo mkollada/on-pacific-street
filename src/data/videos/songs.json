@@ -1,5 +1,12 @@
 [
-    {
+  {
+    "id": "yada-yada-losing-my-head",
+    "artistName": "Yada Yada",
+    "songTitle": "Losing My Head",
+    "youtubeLink": "https://www.youtube.com/embed/wDxXaWy9D6k",
+    "date": "10.12.2024"
+  },
+  {
     "id": "pook-hustle-hands",
     "artistName": "Pook Hustle",
     "songTitle": "Hands prod. by Tedthe1st",
