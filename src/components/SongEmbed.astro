@@ -9,7 +9,11 @@ const { item } = Astro.props;
         {item.artistName} - {item.songTitle}
     </p>
     <YouTubeEmbed link={item.youtubeLink} />
-    <div class="text-center text-xl p-4">
-        <a class="underline" href={item.fullPerformanceLink}>Full Performance</a>
-    </div>
+    {item.fullPerformanceLink && (
+         <div class="text-center text-xl p-4">
+            <div>
+                <a class="underline" href={item.fullPerformanceLink}>Full Performance</a>
+            </div>
+        </div>
+    )}
 </div>
