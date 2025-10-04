@@ -1,0 +1,24 @@
+---
+import GlobalLayout from "../../../../layouts/GlobalLayout.astro";
+import performances from "../../../../data/videos/full-performances.json";
+import FullPerformancePage from "../../../../components/FullPerformancePage.astro";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/png" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>On Pacific Street</title>
+	</head>
+	<body>
+		<GlobalLayout>
+			{performances
+				.filter(item => item.id == "wolf-van-elfmand")
+				.map(item => (
+					<FullPerformancePage item={item} />
+				))}
+		</GlobalLayout>
+	</body>
+</html>

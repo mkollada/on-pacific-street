@@ -1,5 +1,17 @@
 [
   {
+    "id": "wolf-van-elfmand",
+    "artistName": "Wolf van Elfmand",
+    "youtubeLink": "https://www.youtube.com/embed/S_MibGKmISE ",
+    "date": "03.07.2025",
+    "about": "Wolf van Elfmand is a songwriter, producer, and multi-instrumentalist. Raised in Western Colorado, his music explores genres under the vast umbrella term \"Americana\". Like many who trade in music, Wolf's story is not entirely built on themes of a bygone America. His compositions and life story reflect something tailor-made and of no other time than now. His work is a product of a good sense of humor, a good heart, and his ability to ignore the omnipresent whispers from life asking him to be still. To date, Wolf has provided support for Pokey LaFarge, Willie Watson, Turnpike Troubadours, Charlie Parr, Karl Blau, Wayne Hancock, and many, many others. He’s performed at prominent roots festivals, including Salmonfest (Alaska), The UMS (Denver), Midwest Music Fest (Wisconsin), and Brooklyn Folk Festival (New York). Wolf is based in Queens, New York, and is actively writing and performing. New releases are in the pipeline.",
+    "instaHandle": "wolfvanelfmand",
+    "spotifyId": "6aol4tpNUfdKA9rQl77xc3",
+    "audioEngineers": ["Miles Bentley"],
+    "videographers": ["Jason Llaguno"],
+    "MC": "Matt Kollada"
+  },
+  {
     "id": "pook-hustle",
     "artistName": "Pook Hustle",
     "youtubeLink": "https://www.youtube.com/embed/FJcMi_Fuxn0",
