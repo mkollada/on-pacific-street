@@ -1,5 +1,30 @@
 [
   {
+    "id": "raina-sokolov-gonzalez",
+    "artistName": "Raina Sokolov Gonzalez",
+    "youtubeLink": "https://www.youtube.com/embed/4wTcH8L7Wjc",
+    "date": "04.11.2025",
+    "about": "Raina Sokolov Gonzalez is a singer-songwriter and guitarist based in New York City. She is known for her unique blend of folk, rock, and indie pop. She has released two albums, 'Give it a Try' and 'Star to Light', and has toured extensively throughout the United States and Europe.",
+    "instaHandle": "rainasokolovgonzalez",
+    "spotifyId": "0o5z8wisVmLT0Ta3vxOPjU",
+    "bandcampLink": "https://rainasokolovgonzalez.bandcamp.com/",
+    "audioEngineers": ["Miles Bentley"],
+    "videographers": ["Jason Llaguno"],
+    "MC": "Matt Kollada"
+  },
+  {
+    "id": "lilly-gitlitz",
+    "artistName": "Lilly Gitlitz",
+    "youtubeLink": "https://www.youtube.com/embed/xIBc8Aweq20",
+    "date": "04.11.2025",
+    "about": "Lilly Gitlitz was born and raised in the endless summer of South Florida. Her music is vivid, introspective, and raw, abridging folk rock and indie pop styles. Distinctive, interweaving harmonies and narrative storytelling unite her songs. Lilly went to Wesleyan University where she was an active part of the school’s colorful, DIY music scene. After graduating in 2023, she moved to NYC and has been performing her original music alongside dear friends and collaborators. She’s joined by Audrey Mills and Cassidy McDonough, whose voices bring her songs to life.",
+    "instaHandle": "lillygitlitz",
+    "spotifyId": "4vYfjGWUKRuIDOjdU5uNfM",
+    "audioEngineers": ["Miles Bentley"],
+    "videographers": ["Jason Llaguno"],
+    "MC": "Matt Kollada"
+  },
+  {
     "id": "wolf-van-elfmand",
     "artistName": "Wolf van Elfmand",
     "youtubeLink": "https://www.youtube.com/embed/S_MibGKmISE ",

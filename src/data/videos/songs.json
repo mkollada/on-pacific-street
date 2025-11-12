@@ -1,18 +1,26 @@
 [
   {
+    "id": "taylor-pearlstein-baby-teeth",
+    "artistName": "Taylor Pearlstein",
+    "songTitle": "Baby Teeth",
+    "youtubeLink": "https://www.youtube.com/embed/ZIkB0N2KNAg",
+    "date": "03.07.2025"
+  },
+  {
+    "id": "lilly-gitlitz-molasses",
+    "artistName": "Lilly Gitlitz",
+    "songTitle": "Molasses",
+    "youtubeLink": "https://www.youtube.com/embed/Cc5Ka6chVVk ",
+    "date": "04.11.2025",
+    "fullPerformanceLink": "/full-performances/04.11.2025/lilly-gitlitz"
+  },
+  {
     "id": "wolf-van-elfmand-white-cloud",
     "artistName": "Wolf van Elfmand",
     "songTitle": "White Cloud",
     "youtubeLink": "https://www.youtube.com/embed/-GYgudVl7n4 ",
     "date": "03.07.2025",
     "fullPerformanceLink": "/full-performances/03.07.2025/wolf-van-elfmand"
-  },
-  {
-    "id": "taylor-pearlstein-baby-teeth",
-    "artistName": "Taylor Pearlstein",
-    "songTitle": "Baby Teeth",
-    "youtubeLink": "https://www.youtube.com/embed/ZIkB0N2KNAg",
-    "date": "03.07.2025"
   },
   {
     "id": "jvwn-time-is-now",
